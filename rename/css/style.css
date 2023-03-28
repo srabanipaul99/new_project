@@ -1,0 +1,213 @@
+
+body{
+    color:  #482612;
+    overflow-x: hidden;
+}
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+.website-name,
+.delivery-num{
+    color: rgb(135, 148, 21);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.website-name{
+    font-size: 5vw;
+}
+.delivery-num{
+    /* color: rgb(135, 148, 21); */
+   font-size: 4vw;
+}
+
+.navbar .nav-item .nav-link{
+    color:   rgb(135, 148, 21);
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px 10px;
+
+}
+.banner-sub-heading{
+    font-size: x-large;
+    border: 3px dashed  rgb(135, 148, 21);
+}
+.banner-main-heading-p1,.banner-main-heading-p2 {
+    font-size: 15vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+.banner-main-heading-p2{
+    font-size: 11vh;
+}
+.banner-burger-img{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.banner-container{
+    background: url("../image/back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.featured-item-left,.featured-item-right{
+
+    height:500px;
+}
+
+.featured-item-text-p1,.featured-item-text-p2{
+    font-family: ui-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.featured-item-text-p2{
+    font-size: 3em;
+}
+.common-font-family{
+    font-family: ui-serif;
+
+}
+
+
+.card-title{
+    font-size: 3rem;
+}
+
+.items-div-img{
+    height: 300px;
+}
+.events-div{
+    box-shadow: 0 0 10px brown;
+}
+
+.cold-drink-img{
+    top: 5%;
+    right: 5%;
+}
+.footer-img{
+    padding-top: 200px;
+    width:100%;
+    height: 700px;
+    filter:brightness(0.4);
+}
+
+.footer-logo{
+    top: 50%;
+    left: 7%;
+}
+.footer-logo span{
+    font-family: impact;
+}
+.footer-info{
+    top: 70%;
+    left: 4%;
+}
+.address-text,.mail-text{
+    font-size: 3vh;
+}
+.footer-info p {
+    font-size: 3vh;
+}
+
+@media only screen and (max-width:576px){
+
+.items-div-img{
+
+    height: 32vw;
+    width: auto;
+}
+.form-div{
+    width: 85%;
+}
+
+}
+@media only screen and (min-width:767px){
+
+    .featured-item-left{
+        height: 260px;
+    }
+
+    .featured-item-text-p1{
+        font-size: 4vw;
+    }
+
+    .featured-item-text-p2{
+        font-size: 5vw;
+    }
+
+    .items-div-img{
+        height: 30vw;
+        width: auto;
+    }
+
+    .card-title{
+        font-size: 4.5vw;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .website-name{
+             font-family: impact;
+             font-weight: bold;
+             font-size: 3vw;
+    }
+    .delivery-num{
+        
+        font-size: 1.5vw;
+    }
+    .card-title{
+        font-size: 3vw;
+    }
+}
+
+
+@media only screen and (min-width:1200px){
+
+    .card-title{
+
+       font-size: 2vw;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width:992px){
+
+    .banner-burger-img{
+        display: block;
+    }
+    .banner-main-heading-p1{
+
+        font-size: 15vw;
+    }
+    .banner-main-heading-p2{
+
+        font-size: 11vw;
+    }
+    
+    .choose-enjoy-heading-text{
+             
+        font-size: 3vw;
+    }
+    .cold-drink-img,
+    .bun-img,
+    .events-div-img {
+         display: none;
+    }
+
+    
+}
+@media only screen and (min-width:1200px){
+
+    .logo-img{
+
+        width: 70px;
+    }
+    
+}
+
+

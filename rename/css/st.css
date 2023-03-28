@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    color: azure;
+}
+.navbar-brand{
+    color: blanchedalmond;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand:hover{
+
+    color: rgb(198, 247, 23);
+}
+span{
+    color: aqua;
+    cursor: pointer;
+}
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link{
+    color: beige;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover{
+    color: rgb(198, 247, 23);
+
+}
+.d-flex{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(198, 247, 23);
+
+}
+
+
+/*------------------------------main--------------------------------*/
+
+.main{
+   
+   
+    background: url(../image/gym2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.btn1{
+    width: 140px;
+    height: 55px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #f33b03 0%,  #d1bd04 100%);
+    color: antiquewhite;
+    transition: 1s;
+}
+
+/*------------------------------main--------------------------------*/
+
+.detail{
+    margin-top: -50px;
+}
+.detail h5{
+    text-decoration: none;
+    color: #5b6319;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.detail a{
+    text-decoration: none;
+    color: #3e4409;
+}
+.back:hover{
+    color: rgb(35, 41, 2);
+    cursor: pointer;
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+ .back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, #f33b03 0%,  #d1bd04 100%);
+    z-index: -1;
+    transition: all 0.8s;
+} 
+.back:hover::before{
+   height: 100%;
+    
+}
+.back:hover a{
+    color: aliceblue;
+    cursor: pointer;
+   
+
+}
+
+/*------------------------------main--------------------------------*/
+
+.more h2{
+    font-weight: 800;
+}
+.more p{
+    font-weight: lighter;
+}
+p{
+    font-size: 1rem;
+}
+
+/*------------------------------main--------------------------------*/
+
+.discover{
+    background-image: url(../image/gym_7.jpg);
+    background-size: cover;
+    max-width: 100%;
+}
+.discover h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+
+}
+
+/*------------------------------main--------------------------------*/
+
+.service h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.service h5{
+    font-weight: 700;
+
+}
+.fas{ font-size: 2.5rem;
+    color: #da4cb6;
+
+}
+.back:hover .fas{
+    color: antiquewhite;
+}
+/*-----------------------------course--------------------------------*/
+
+.course h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+
+}
+.course .card{
+    border: none;
+}
+p{
+    font-weight: lighter;
+}
+
+/*-----------------------btn------------------------------*/
+.btn2{
+    
+    height: 55px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #f33b03 0%,  #d1bd04 100%);
+    color: antiquewhite;
+    transition: 1s
+}
+.btn2:hover{
+    background: linear-gradient(90deg, #1d608d 0%,  #a70f81 100%);
+    transition: all 1s;
+
+}
+
+/*-----------------------btn------------------------------*/
+
+.footer{
+    background-color: #070113;
+    color: aliceblue;
+    
+}
+.footer h4, h5{
+    font-weight: 900;
+
+}
+.footer p{
+    color: aliceblue;
+}
+.link{
+    cursor: pointer;
+    transition: all 0,5s;
+}
+.link:hover{
+    color: #d1bd04;
+    padding-left: 5px;
+    transition: all 0.5s;
+}
+.fa-angle-double-right{
+    font-size: 18px;
+    color: aqua;
+}
+.social{
+    color: aqua;
+    font-size: 24px;
+    transition: all 0.4s;
+}
+.social:hover{
+    color: #d1bd04;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.social:hover{
+    color: #d1bd04;
+    transition: all 0.4s;
+    cursor: pointer;
+    
+}
+
+
+/*--------------------------------------last---------------*/
+
+.end{
+    background-color: #a70f81;
+    color: aliceblue;
+   padding-top: 8px;
+}
+.end span{
+    font-weight: bold;
+}
+
+

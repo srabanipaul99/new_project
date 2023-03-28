@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+.nav-item a:hover{
+    color: rgb(52, 194, 8);
+}
+.navbar-brand{
+    height: 20px;
+    width: 60px;
+    padding-bottom: 70px;
+    
+}
+.search{
+    height: 45px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgb(52, 194, 8);
+    border-radius: 20px 0 0 20px ;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(52, 194, 8);
+    color: azure;
+    border-radius: 0px 20px 20px 0px ;
+}
+.btn1:hover{
+    background-color: brown;
+}
+.bi-bag-check{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.bi-bag-check:hover{
+    color: brown;
+}
+
+.navbar-toggler{
+    font-size: 24px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+.main{
+    background: url(../image/fruitbac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.main h1{
+    font-size: 50px;
+}
+.main p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: rgb(73, 31, 172);
+}
+.mbtn1{
+    height: 45px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color:rgb(37, 236, 10);
+    transition: all 0.4s;
+    border-radius: 50px;
+}
+.mbtn1:hover{
+    background: rgb(236, 241, 235);
+}
+
+
+
+.mbtn2{
+    height: 45px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: rgb(37, 236, 10);
+    border-radius: 50px ;
+    border: 2px solid rgb(51, 241, 51);
+    transition: all 0.4s;
+}
+.mbtn2:hover {
+    background-color:rgb(37, 236, 10);
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background-color:rgb(37, 236, 10);
+    display: inline-block
+}
+
+.about h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: rgb(73, 31, 172);
+}
+
+.welcome{
+    background-color:rgb(37, 236, 10);
+}
+.line2{
+    height: 5px;
+    width: 30%;
+    background-color: beige;
+    display: inline-block;
+}
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color: rgb(37, 236, 10);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+.product h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: rgb(73, 31, 172);
+}
+.star{
+    text-align: end;
+    color: rgb(245, 74, 7);
+}
+.product .car-body{
+    border: 1px dashed grey;
+} 
+.product .card{
+border: none;
+border-radius: 0;
+cursor: pointer;
+
+}
+
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1{
+    color: brown;
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: azure;
+    background-color:rgb(37, 236, 10);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(37, 236, 10);
+    color: rgb(37, 236, 10);
+    border-radius: 50px;
+    background: red;
+
+}
+.discount{
+    color: azure;
+    background-color:rgb(37, 236, 10);
+}
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 50px;
+    display: block;
+    font-weight: lighter;
+    margin: 0 auto;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color: brown;
+}
+
+.store h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.store p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: rgb(73, 31, 172);
+}
+.bi-truck{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.store .card:hover{
+    background-color: rgb(37, 236, 10);
+    color: beige;
+}
+.store .card:hover .per1{
+    color: beige;
+}
+
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.seller i{
+    color: rgb(245, 116, 11);
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+    
+}
+
+
+.contact{
+  background: url(../image/me.jpg)no-repeat;
+  background-size: cover;
+  width: 100%;
+   
+
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.contact p{
+    color: aliceblue;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: rgba(0, 10, 10, 0.932);
+    text-align: center;
+    padding-top: 10px ;
+    font-size: 18px;
+}
+
+.contact input{
+    height: 40px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contact textarea{
+    height: 100px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.cbtn{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+
+.cbtn:hover{
+    background: rgb(216, 231, 4);
+}
+.footer{
+    background-color: rgb(7, 110, 76);
+    
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 9px;
+    padding-left: 10px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover{
+    background-color: aqua;
+    color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
